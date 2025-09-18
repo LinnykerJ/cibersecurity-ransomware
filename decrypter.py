@@ -12,7 +12,7 @@ key = b"ransomwares"
 aes = pyaes.AESModeOfOperationCTR(key)
 decrypt_data = aes.decrypt(file_data)
 
-## remover o arquivo criptografado
+## remover o arquivo
 os.remove(file_name)
 
 ## criar o arquivo descriptografado
